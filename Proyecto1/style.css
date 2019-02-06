@@ -1,0 +1,169 @@
+body{
+    background-color: #333;
+    font:normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#video{
+    text-align: center;
+    background-color: #333;
+    width: 100%;
+}
+
+#Historia{
+    background-color: #333;
+    color: white;
+    text-align: justify;
+    margin: 10px 10px;
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+}
+
+#Historia h2{
+    text-align: center;
+}
+
+#lff{
+    position: absolute;
+    width: 40%; 
+    padding-top: 60px;
+    left: 61%;
+}
+
+.right-button{
+    float: right;
+    margin-top: 40px;
+}
+
+#parent{
+    position: relative;
+    height: 500px;
+}
+
+#Tarjetas{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:60px;
+    padding: 10px;
+}
+
+.NF{
+    grid-area: NF;    
+}
+
+.CW{
+    grid-area: CW;
+}
+
+.AJ{
+    grid-area: AJ;
+}
+
+.ZE{
+    grid-area: ZE;
+}
+
+.FC{
+    grid-area: FC;
+}
+
+.MJ{
+    grid-area: MJ;
+}
+
+.JE{
+    grid-area: JE;
+}
+
+.DP{
+    grid-area: DP;
+}
+
+.img-container{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Name{
+    font-size: 32px;
+    color:white;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.Position{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.Pictures{
+    filter: opacity(30%)
+}
+            
+footer{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    background-color: darkslategrey;
+    height: 150px;  
+    margin-top: 100px;
+}
+
+
+#References{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.link{
+    margin: 0 25px;
+}
+
+.link:hover{
+    background-color: none; 
+}
+
+a:hover{
+    background-color: transparent; 
+}
